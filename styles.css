@@ -54,6 +54,17 @@ header {
 
     .hero-section h2 {
         text-align: center;
+        font-size: 22px;
+        color: red;
+    }
+
+    .hero-section p:first-child {
+        font-size: 18px;
+        color: blue;
+    }
+
+    .about, .learn-btn {
+        margin-left: 30px;
     }
 
     form {
@@ -63,9 +74,35 @@ header {
         gap: 10px;
     }
 
-    input, textarea {
+    input {
         width: 300px;
         height: 30px;
+        border-radius: 10px;
+        color: blue;
+        border: 1px solid blue;
+    }
+
+    #id, #image {
+        border: none;
+    }
+
+    textarea {
+        border: 1px solid blue;
+    }
+
+    input::placeholder, textarea::placeholder {
+        padding: 10px;
+        color: blue;
+    }
+
+    .submit-btn,.learn-btn {
+        background-color: rgb(254, 2, 2);
+        border: none;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
     }
 
     img {
@@ -77,31 +114,151 @@ header {
     h1 {
         margin-left: 30px;
         font-size: 40px;
+        color: blue;
+        margin-bottom: 20px;
     }
 
-    .menu-btn {
+    .menu-btn, .login-btn {
         display:flex;
         height: fit-content;
+        color: red;
+        background-color: white;
+    }
+
+    .login-btn {
+        width: 60px;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
     }
 
     .mobile-nav {
         display: block;
     }
 
-        .mobile-nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
+    .mobile-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-btn {
+        display: flex;
+        gap: 10px;
+    }
     
-        .mobile-nav li {
-            padding: 10px;
-            display: block;
-        }
+    .mobile-nav li {
+        padding: 10px;
+        display: block;
+    }
+
+    .mobile-nav a {
+        text-decoration: none;
+        color: #333;
+        
+    }
+
+    .section-2 {
+        margin-left: 30px;
+        border-bottom: 5px  solid red;
+    }
+
+    .section-2 h2, h2 {
+        font-size: 26px;
+        color: blue;
+        text-transform:capitalize ;
+        
+    }
+
+    summary {
+        
+        margin-bottom: 30px;
+        color: blue;
+        
+    }
+
+    details {
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid rgba(41, 40, 40, 0.604);
+        
+        
+    }
+
+    span {
+        font-size: 20px;
+        color: blue;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+
+    hr {
+        margin-left: 30px;
+    }
+
+    .section-3 h2, .section-3 p {
+        margin-left: 30px;
+    }
+
+    .section-3 > .learn-btn {
+        color: red;
+        background-color: #fff;
+        border: 2px solid red;
+    }
+
+    .Digital-bank {
+        height: 200px;
+        background-image: url("images/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+        object-fit: cover;
+        color: #fff;
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .Digital-bank ul { 
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding-top: 30px;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .section-4 {
+        background-color: rgba(128, 128, 128, 0.154);
+        margin-top: -60px;
+    }
+
+    .section-4 h2 {
+        margin-left: 30px;
+        padding-top: 100px;
+    }
+
+    .grow-with-us {
+        margin-left: 30px;
+        border-bottom: 2px solid grey;
+        
+    }
+
+    .grow-with-us hr {
+        margin-left: 0px;
+        
+    }
+
+    .grow-with-us > .learn-btn {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .grow-with-us p:first-child {
+        font-size: 20px;
+        color: blue;
+    }
+
+
     
-        .mobile-nav a {
-            text-decoration: none;
-            color: #333;
-            
-        }
+
+    
 }

