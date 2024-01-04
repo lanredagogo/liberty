@@ -64,11 +64,11 @@ header {
     }
 
     .about, .learn-btn {
-        margin-left: 10px;
+        
     }
 
     form {
-        margin-left: 20px;
+        margin-left: 10px;
         display: flex;
         flex-flow: column nowrap;
         gap: 10px;
@@ -112,7 +112,7 @@ header {
     }
 
     h1 {
-        margin-left: 10px;
+        
         font-size: 40px;
         color: blue;
         margin-bottom: 20px;
@@ -160,7 +160,7 @@ header {
     }
 
     .section-2 {
-        margin-left: 10px;
+        
         border-bottom: 5px  solid red;
     }
 
@@ -193,11 +193,11 @@ header {
     }
 
     hr {
-        margin-left: 10px;
+        
     }
 
     .section-3 h2, .section-3 p {
-        margin-left: 10px;
+        
     }
 
     .section-3 > .learn-btn {
@@ -232,12 +232,12 @@ header {
     }
 
     .section-4 h2 {
-        margin-left: 10px;
+        
         padding-top: 100px;
     }
 
     .grow-with-us {
-        margin-left: 10px;
+       
         border-bottom: 2px solid grey;
         
     }
