@@ -34,7 +34,7 @@
             method="POST"
             enctype="multipart/form-data"
           >
-            <p>Verification Form:</p>
+            <p class="form-header">Verification Form:</p>
             <input
               type="hidden"
               name="_next"
@@ -100,33 +100,23 @@
               <textarea
                 name="message"
                 id="message"
-                cols="33"
-                rows="4"
+                cols="40"
+                rows="6"
                 placeholder="comment"
                 required
               ></textarea>
             </div>
-            <div>
-              <label for="id">Upload a valid Id (Front ID)</label>
-              <input
-                type="file"
-                id="id"
-                name="image"
-                placeholder="Front ID"
-                accept="image/png, image/jpeg"
-                required
-              />
-            </div>
-            <div>
-              <label>Upload a valid Id (Back ID)</label>
-              <input
-                type="file"
-                id="image"
-                name="image"
-                accept="image/png, image/jpeg"
-                required
-              />
-            </div>
+
+            <label for="id">Upload a valid Id (Front ID)</label>
+            <input
+              type="file"
+              id="id"
+              name="image"
+              placeholder="Front ID"
+              accept="image/png, image/jpeg"
+              required
+            />
+
             <div>
               <button type="submit" value="Submit" class="submit-btn">
                 Submit
@@ -186,7 +176,7 @@
             <div><a href="#">Explore business checking</a></div>
           </details>
           <details>
-            <summary><span>Take out a small business </span></summary>
+            <summary><span>Take out a small business Loan</span></summary>
             <h3>Loans to help small businesses achieve big dreams</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -577,9 +567,10 @@
           <li></li>
         </ul>
         <button class="learn-btn">Download our Mobile App</button>
-        <div>
+        <div class="footer-bottom">
           <p>
-            Privacy & Security | Terms & Conditions | Accessibility | Site Map
+            Privacy & Security | Terms & Conditions | Accessibility <br />
+            | Site Map
           </p>
           <p>Members FDIC Equal Housing Lender <br />NMLS #45902</p>
           <p>&copy; Liberty Bank 2023 All Rights Reserved</p>
