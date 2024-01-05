@@ -44,7 +44,7 @@ header {
 /* Media query to show/hide the mobile navigation */
 @media (max-width: 500px) {
     .mobile-container {
-        margin: 10px;
+    
         font-family: 'Roboto', sans-serif;
     }
 
@@ -227,8 +227,9 @@ header {
     }
 
     .section-4 {
-        background-color: rgba(128, 128, 128, 0.154);
+        background-color: rgba(151, 151, 151, 0.051);
         margin-top: -60px;
+        height: 650px;
     }
 
     .section-4 h2 {
@@ -237,13 +238,18 @@ header {
     }
 
     .grow-with-us {
-       
-        border-bottom: 2px solid grey;
+        border-bottom: 2px solid rgba(144, 143, 143, 0.329);
+        
+    }
+
+    .grow-with-us:last-child {
+        
+        margin-bottom: 20px;
         
     }
 
     .grow-with-us hr {
-        margin-left: 0px;
+        
         
     }
 
@@ -253,8 +259,87 @@ header {
     }
 
     .grow-with-us p:first-child {
-        font-size: 20px;
+        font-size: 18px;
         color: blue;
+        font-weight: 600;
+    }
+
+    .section-5 {
+        border: 5px solid rgba(95, 95, 251, 0.532);
+        height: 430px;
+        width: 400px;
+        margin: 30px auto;
+        border-radius: 25px;
+        position: relative;
+    }
+
+    .find-location {
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .find-location h3 {
+        font-size: 24px;
+        color: red;
+    }
+
+    .find-location p {
+        line-height: 1.5;
+    }
+
+    .find-location button {
+        background-color: blue;
+    }
+
+    .location-img {
+        position:absolute;
+        left: 50px;
+        top: 220px;
+        object-fit: cover;
+        border-bottom-left-radius: 35px;
+        border-top-left-radius: 35px;
+    }
+
+    footer {
+        margin-top: 100px;
+        background-color: #02027f;
+        color: #fff;
+    }
+
+    footer img {
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+
+    .footer-about-us {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .footer-about-us ul {
+        list-style-type: none;
+        margin-left: -10px;
+        margin-top: 30px;
+    }
+
+    .footer-about-us li {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .social-media {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       
+    }
+
+    footer .learn-btn {
+        background-color: #02027f;
+        border: 2px solid white;
+        font-size: 18px;
+        margin-left: 30px;
     }
 
 
