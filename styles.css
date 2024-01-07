@@ -42,7 +42,7 @@ header {
 }
 
 /* Media query to show/hide the mobile navigation */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .mobile-container {
     
         font-family: 'Roboto', sans-serif;
