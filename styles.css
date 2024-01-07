@@ -343,6 +343,7 @@ header {
         margin-top: 100px;
         background-color: #02027f;
         color: #fff;
+        max-width: inherit;
     }
 
     footer img {
