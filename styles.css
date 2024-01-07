@@ -76,13 +76,14 @@ header {
     form {
         margin-left: 10px;
         display: flex;
+        align-items: center;
         flex-flow: column nowrap;
         gap: 10px;
         margin-left: 30px;
     }
 
     input {
-        width: 400px;
+        width: 300px;
         height: 40px;
         border-radius: 10px;
         color: blue;
@@ -298,26 +299,31 @@ header {
     }
 
     .section-5 {
-        border: 5px solid rgba(95, 95, 251, 0.532);
-        height: 430px;
-        width: 400px;
-        margin: 30px auto;
-        border-radius: 25px;
+    
+       
+        
         position: relative;
     }
 
     .find-location {
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 40px;
+        border: 5px solid rgba(95, 95, 251, 0.532);
+            height: 400px;
+            width: 350px;
+            border-radius: 25px;
+            margin: 30px auto;
     }
 
     .find-location h3 {
         font-size: 24px;
         color: red;
+        margin-left: 30px;
     }
 
     .find-location p {
         line-height: 1.5;
+        margin-left: 30px;
     }
 
     .find-location button {
@@ -326,7 +332,7 @@ header {
 
     .location-img {
         position:absolute;
-        left: 50px;
+        left: 90px;
         top: 220px;
         object-fit: cover;
         border-bottom-left-radius: 35px;
@@ -381,7 +387,7 @@ header {
     }
 
     .footer-bottom {
-        background-color: #000059;
+        
         padding-bottom: 50px;
     }
 
